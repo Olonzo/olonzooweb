@@ -1,0 +1,99 @@
+body{
+    background-color: chocolate;
+    margin-left: 160px;
+}
+header{
+    background-color:darkgray;
+    padding: 20px;
+    text-align:center;
+}
+header img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+    color: chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Personal{
+    background-color: beige;
+    padding:30px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    
+}
+#Education{
+    font-size: 25px;
+    font-style:oblique;
+    background-color: beige;
+    padding: 20px;
+    color: white;
+}
+#Experience{
+    background-color: beige;
+    padding: 20px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table,th,td{
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+}
+
+#Contact{
+    text-align: center;
+    padding: 1rem;
+    background-color:cadetblue;
+    color: #fff;
+  }
+div li{
+    padding: 5px;
+    margin: 30px;
+    display: inline-block;
+    
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color:gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: left;
+  }
+  nav {
+    display:run-in;
+    justify-content: space-between;
+    align-items: right;
+    padding: 1rem;
+    color: #fff;
+  }
+  .btn:hover{
+    color: yellow;
+  }
+#Copywright{
+    background-color:dimgray;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index:1;
+    top:0%;
+    left:0%;
+    background-color:darkslategray;
+    overflow-x: hidden;
+    padding-top: 25px;
+}
